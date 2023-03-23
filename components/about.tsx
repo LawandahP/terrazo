@@ -110,7 +110,7 @@ const About = () => {
 
                 <div  className="accordion accordion-group" id="our-values-accordion">
 
-                    {values.map((value) => (
+                    {/* {values.map((value) => (
                         <div key={value.title} className="card">
                             <div className="card-header p-0 bg-transparent" id={`${value.headingId}`}>
                                 <h2  className="mb-0">
@@ -132,9 +132,22 @@ const About = () => {
                                 </div>
                             </div>
                         </div>
-                        ))}
+                        ))} */}
                     
-                    {/* <div  className="card">
+                    <div  className="card">
+                        <div  className="card-header p-0 bg-transparent" id="headingOne">
+                            <h2  className="mb-0">
+                            <button  className="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                Safety
+                            </button>
+                            </h2>
+                        </div>
+                        <div id="collapseOne"  className="collapse" aria-labelledby="headingOne" data-parent="#our-values-accordion">
+                            <div  className="card-body">
+                            We prioritize the well-being of our employees, customers, and partners by maintaining a safe working environment through proper training and adherence to protocols.                        </div>
+                    </div>
+
+                    <div  className="card">
                         <div  className="card-header p-0 bg-transparent" id="headingTwo">
                             <h2  className="mb-0">
                             <button  className="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -144,8 +157,7 @@ const About = () => {
                         </div>
                         <div id="collapseTwo"  className="collapse" aria-labelledby="headingTwo" data-parent="#our-values-accordion">
                             <div  className="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidata
-                            </div>
+                            We strive to exceed our customers expectations by providing timely, courteous, and knowledgeable service, and by always putting their needs first.                            </div>
                         </div>
                     </div>
                     <div  className="card">
@@ -158,10 +170,9 @@ const About = () => {
                         </div>
                         <div id="collapseThree"  className="collapse" aria-labelledby="headingThree" data-parent="#our-values-accordion">
                             <div  className="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidata
-                            </div>
+                            We conduct our business with honesty, transparency, and accountability, and uphold ethical standards in all our interactions with customers, employees, and stakeholders.                            </div>
                         </div>
-                    </div> */}
+                    </div>
                 </div>
             </div>
         </div>
