@@ -12,7 +12,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <Script async type="text/javascript" src="/plugins/slick/slick-animation.min.js" />
       <Script async type="text/javascript" src="/plugins/colorbox/jquery.colorbox.js" />
       <Script async type="text/javascript" src="/plugins/shuffle/shuffle.min.js" defer />
-      <Script async type="text/javascript" src="/js/script.js" />
+      {/* <Script async type="text/javascript" src="/js/script.js" /> */}
     <Component {...pageProps} />
   </>
   )

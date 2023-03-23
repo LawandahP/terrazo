@@ -1,11 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
  
     
 const Hero = () => {
+    
     return (
         <>
             <div className="banner-carousel banner-carousel-1 mb-0">
-                <div className="banner-carousel-item" style={{backgroundImage: "url(/images/slider-main/bg1.jpg)"}}>
+                <div className="banner-carousel-item" style={{backgroundImage: "url(/images/slider-main/bg1.jpeg)"}}>
                     <div className="slider-content">
                         <div className="container h-100">
                         <div className="row align-items-center h-100">
@@ -22,7 +23,7 @@ const Hero = () => {
                     </div>
                 </div>
 
-                <div   className="banner-carousel-item" style={{backgroundImage: "url(/images/slider-main/bg2.jpg)"}}>
+                <div   className="banner-carousel-item" style={{backgroundImage: "url(/images/slider-main/bg2.jpeg)"}}>
                     <div   className="slider-content text-left">
                         <div   className="container h-100">
                         <div   className="row align-items-center h-100">

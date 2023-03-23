@@ -69,7 +69,7 @@ const Contact = () => {
                             </span>
                             <div className="ts-service-box-content">
                                 <h4>Call Us</h4>
-                                <p>(+9) 847-291-4353</p>
+                                <p>(+254) 740-129-131</p>
                             </div>
                             </div>
                         </div>

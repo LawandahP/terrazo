@@ -8,10 +8,23 @@ import About from '../../components/about'
 import Facts from '../../components/facts'
 import Footer from '../../components/footer'
 import Services from '../../components/services'
+import { useEffect } from 'react'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  useEffect(() => {
+    const script = document.createElement('script');
+  
+    script.src = '/js/script.js';
+    script.async = true;
+  
+    document.head.appendChild(script);
+  
+    return () => {
+      document.head.removeChild(script);
+    };
+  }, []);
   return (
     <>
       <Head>
