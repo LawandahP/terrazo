@@ -55,6 +55,8 @@ const points2 = [
         text: "A Team of Professionals"
     },
 ]
+
+
 const About = () => {
   return (
     <section id="ts-features"  className="ts-features">
@@ -150,7 +152,7 @@ const About = () => {
                     <div  className="card">
                         <div  className="card-header p-0 bg-transparent" id="headingTwo">
                             <h2  className="mb-0">
-                            <button  className="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <button  className="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 Customer Service
                             </button>
                             </h2>
@@ -163,7 +165,7 @@ const About = () => {
                     <div  className="card">
                         <div  className="card-header p-0 bg-transparent" id="headingThree">
                             <h2  className="mb-0">
-                            <button  className="btn btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <button  className="btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                 Integrity
                             </button>
                             </h2>

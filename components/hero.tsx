@@ -27,7 +27,7 @@ const Hero = () => {
                         <div   className="container h-100">
                         <div   className="row align-items-center h-100">
                             <div   className="col-md-12">
-                                <h2   className="slide-title-box" data-animation-in="slideInDown">World  className Service</h2>
+                                <h2   className="slide-title-box" data-animation-in="slideInDown">World Class Service</h2>
                                 <h3   className="slide-title" data-animation-in="fadeIn">When Service Matters</h3>
                                 <h3   className="slide-sub-title" data-animation-in="slideInLeft">Your Choice is Simple</h3>
                                 <p data-animation-in="slideInRight">

@@ -36,8 +36,7 @@ const Contact = () => {
                             <h3 className="section-sub-title">Find Our Location</h3>
                         </div>
                     </div>
-
-
+                    
                     <div className="row">
                         <div className="col-md-4">
                             <div className="ts-service-box-bg text-center h-100">
@@ -74,7 +73,6 @@ const Contact = () => {
                             </div>
                             </div>
                         </div>
-
                     </div>
 
                     <div className="gap-60"></div>
@@ -82,16 +80,16 @@ const Contact = () => {
                     <div className="google-map">
                         <div style={{overflow: "hidden", maxWidth:"100%", width: "100%", height: "500px"}}>
                             <div id="gmap-canvas" style={{height:"100%", width:"100%", maxWidth:"100%"}}>
-                                <iframe style={{height:"100%", width: "100%", border:0}} frameborder="0" src="https://www.google.com/maps/embed/v1/streetview?location=-1.2857,36.9550&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
-                                    </iframe>
-                                    </div>
-                                    <a className="the-googlemap-enabler" href="https://www.bootstrapskins.com/themes" id="grab-map-info">premium bootstrap themes</a>
+                            <iframe style={{height:"100%", width: "100%", border:0}} src="https://www.google.com/maps/embed/v1/streetview?location=-1.2857,36.9550&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                                </iframe>
                                 </div>
+                                <a className="the-googlemap-enabler" href="https://www.bootstrapskins.com/themes" id="grab-map-info">premium bootstrap themes</a>
+                            </div>
                     </div>
 
                     <div className="gap-40"></div>
                    
-{/* 
+                    {/* 
                     <div className="row">
                         <div className="col-md-12">
                             <h3 className="column-title">We love to hear</h3> */}
